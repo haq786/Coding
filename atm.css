@@ -1,0 +1,218 @@
+body.atm{
+	background-image: url(https://images.hindustantimes.com/img/2021/09/28/550x309/sbi_logo_1620802106928_1632816643022.jpg);
+   background-repeat: no-repeat;
+   background-position: top;
+}
+button{
+	background-color: orangered;
+}
+button:hover{
+	background-color: lightcyan;
+}
+.atm2{
+	background-image: url("design.jpg");
+	 background-repeat: no-repeat;
+   background-size: cover;
+}
+.atm3{
+	background-image: url("design.jpg");
+	 background-repeat: no-repeat;
+   background-size: cover;
+}
+.atm4{
+	background-image: url("design.jpg");
+	 background-repeat: no-repeat;
+   background-size: cover;
+}
+.atm5{
+	background-image: url(design.jpg);
+
+}
+.atm6{
+	background-image: url("design.jpg");
+	
+}
+.notes{
+	font-size: 30px;
+	text-align: center;
+	margin-top: 25%;
+}
+.btn{
+	
+	float: right;
+	
+	width: 150px;
+	padding: 15px;
+   
+   border: none;
+   outline: none;
+   cursor: pointer;
+}
+.btn2{
+	
+	padding: 15px;
+	width: 150px;
+	float: left;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+.set{
+	
+	position: fixed;
+	bottom: 200px;
+    left: 450px;
+    width: 100%;
+}
+#password{
+	background-color: white;
+	padding: 10px;
+	width: 250px;
+}
+
+#check{
+	width: 150px;
+	padding: 15px;
+	
+    outline: none;
+    border: none;
+    position: absolute;
+    right: 10px;
+    bottom: 195px;
+    cursor: pointer;
+}
+#account{
+	
+	padding: 20px;
+	width: 350px;
+	margin-top: 250px;
+	
+}
+#accountVerify{
+	
+ 	width: 180px;
+ 	padding: 15px;
+ 	float: right;
+ 	margin-top: 260px;
+ 
+ 	font-size: 20px;
+ 	cursor: pointer;
+}
+#accountcontainer{
+	float: right;
+		margin-top: 260px;
+			display: none;
+
+
+}
+#accountcontainer button{
+	margin: 15px;
+	
+ 	width: 180px;
+ 	padding: 15px;
+ 
+ 	font-size: 20px;
+ 	cursor: pointer;
+
+}
+#current{
+	
+	padding: 20px;
+	width: 350px;
+	margin-top: 250px;
+	
+	margin-left: 250px;
+	display: none;
+}
+#currentConfirm{
+	margin-top: 250px;
+	
+ 	width: 180px;
+ 	padding: 15px;
+ 	
+ 	font-size: 20px;
+ 	cursor: pointer;
+ 	float: right;
+ 	display: none;
+}
+#informcontainer{
+	display: none;
+}
+#saving{
+
+	padding: 20px;
+	width: 350px;
+	margin-top: 250px;
+
+	margin-left: 250px;
+}
+#savingConfirm{
+	margin-top: 250px;
+	
+ 	width: 180px;
+ 	padding: 15px;
+ 
+ 	font-size: 20px;
+ 	cursor: pointer;
+ 	float: right;
+}
+#informContainer2{
+	display: none;
+}
+#WithDrawlSet1{
+	text-align: center;
+	margin-top: 200px;
+	
+}
+#passwordSet{
+	margin-top: 200px;
+}
+#passwordSet input{
+	
+	padding: 20px;
+	
+}
+#passwordSet button{
+
+	padding: 20px;
+	
+	cursor: pointer;
+	float: right;
+}
+#transactionSet button{
+	
+	padding: 20px;
+
+	cursor: pointer;
+	margin: 20px;
+}
+#transactionSet{
+float: right;
+display: none;
+}
+#informcontainerCurrent{
+	display: none;
+}
+#currentAmount{
+	margin-top: 200px;
+	padding: 15px;
+	
+}
+#currentbtn{
+	cursor: pointer;
+	padding: 15px;
+	
+}
+#informcontainerSaving{
+	display: none;
+}
+#savingAmount{
+	margin-top: 200px;
+	padding: 15px;
+	
+}
+#savingbtn{
+	padding: 15px;
+	cursor: pointer;
+
+}

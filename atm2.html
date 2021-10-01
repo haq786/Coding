@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>enter the account Number</title>
+	<link rel="stylesheet" type="text/css" href="atm.css">
+</head>
+<body class="atm2">
+	<div id="ammountcontainer">
+		<input type="number" name="currentammount" id="current" placeholder="Enter the Amount">
+	<button onclick="paymentConfirm1()" id="currentConfirm">confirm</button>
+	</div>
+	
+	<center><h2 id="notes1" style="color: white;">Enter the account Number</h2></center>
+<center><input type="password" id="account" required="true" value="">
+<button onclick="accountVerify()" id="accountVerify">Confirm</button></center>
+<div id="accountcontainer">
+<button onclick="current()" id="currentbtn" style="background-color: orangered; color: white;">Current Account</button><br>
+<button onclick="saving()" id="savingbtn"  style="background-color: orangered; color: white;">Saving Account</button>
+</div>
+<div id="informcontainer" style="color: white;">
+	<center><img src="https://cdn.dribbble.com/users/206390/screenshots/3532189/success_dribbble_gif.gif"></center>
+<center><div>
+	<h3>Scroll Down to See Transaction Details</h3><br>
+	<p><b>Name:</b>M.Kumaran</p>
+	<p><b>Benificiary Name:</b>A.Balasuburamaiyan</p>
+	<p><b>account Number:</b>1234567890</p>
+	<b id="bold1"></b>
+	<p><b>Branch:</b>Trichy,Contonment</p>
+	<h3>-THANK YOU FOR CHOOSE FOR OUR BANKING-</h3>
+</div></center>
+
+</div>
+<script type="text/javascript" src="atm.js"></script>
+</body>
+</html>
